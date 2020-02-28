@@ -6,12 +6,14 @@ import About from './About';
 import Layout from './components/Layout';
 import Navbar from './components/NavigationBar';
 import NavigationBar from './components/NavigationBar';
+import Jumbotron from './components/Jumbotron';
 
 class App extends Component {
   render() {
   return (
    <React.Fragment>
      <NavigationBar/>
+     <Jumbotron/>
      <Layout>
 <Router>
   <Switch>
